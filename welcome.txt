@@ -1,2 +1,10 @@
 Welcome github world.
 I studied git from https://opentutorials.org/course/2708/15465
+
+My favorite sites:
+freeCodeCamp
+https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ
+https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/palindrome-checker
+MDN
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Creating_fancy_letterheaded_paper
+
