@@ -1,0 +1,97 @@
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="para.js"></script>
+  </head>
+  <body onload="init()">
+    <h3>두개의 컨테이너</h3>
+    <div class="row">
+      <div class="label">flex:</div>
+      <div class="container1">
+        <div class="box">short</div>
+        <div class="box">short</div>
+        <div class="box">short</div>
+      </div>
+      <div class="container1">
+        <div class="box">short</div>
+        <div class="box">short</div>
+        <div class="box">short</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="label">inline-flex:</div>
+      <div class="container2 inpara" id="inpara">
+        <div class="box">first input short</div>
+        <div class="box">second input short</div>
+        <div class="box">long input parameter</div>
+        <div class="box">last input</div>
+      </div>
+      <div class="container3 ">
+        <div class="box">process name</div>
+      </div>
+      <div class="container2 outpara">
+        <div class="box">output short</div>
+        <div class="box">output </div>
+        <div class="box">last output </div>
+      </div>
+      <div class='controls' id="add-inpara">
+        <button>add inpara</button>
+      </div>
+    </div>
+    <br />
+    <h3>
+      item에 기본값 적용
+    </h3>
+    <div class="row">
+      <div class="label">flex:</div>
+      <div class="container1">
+        <div class="box">short</div>
+        <div class="box">조금더 길게</div>
+        <div class="box">매우우우우우우우우우우우우우 길게</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="label">inline-flex:</div>
+      <div class="container2">
+        <div class="box">short</div>
+        <div class="box">조금더 길게</div>
+        <div class="box">매우우우우우우우우우우우우우 길게</div>
+      </div>
+    </div>
+    <br />
+    <h3>item에 "flex: 1" 적용</h3>
+    <div class="row">
+      <div class="label">flex:</div>
+      <div class="container1">
+        <div class="box grow">short</div>
+        <div class="box grow">조금더 길게</div>
+        <div class="box grow">매우우우우우우우우우우우우우 길게</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="label">inline-flex:</div>
+      <div class="container2">
+        <div class="box grow">short</div>
+        <div class="box grow">조금더 길게</div>
+        <div class="box grow">매우우우우우우우우우우우우우 길게</div>
+      </div>
+    </div>
+    <br />
+    <h3>flex-basis vs width</h3>
+    <div class="row">
+      <div class="label">inline-flex (flex-basis: 200px):</div>
+      <div class="container2 overflow">
+        <div class="box basis">short</div>
+        <div class="box basis">조금더 길게</div>
+        <div class="box basis">매우우우우우우우우우우우우우 길게</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="label">inline-flex1 (width: 200px):</div>
+      <div class="container2 overflow">
+        <div class="box width">short</div>
+        <div class="box width">조금더 길게</div>
+        <div class="box width">매우우우우우우우우우우우우우 길게</div>
+      </div>
+    </div>
+  </body>
+</html>

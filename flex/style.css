@@ -1,0 +1,65 @@
+<style>
+h3 {
+  margin: 10px 0;
+}
+.label {
+  width: 300px;
+}
+.container1 {
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+  background: #aaa;
+  border: 2px solid #666;
+}
+.container2 {
+  display: inline-flex;
+  flex-direction: column;
+  margin: 5px;
+  padding: 5px;
+  background: #aaa;
+  border: 2px solid #666;
+}
+.container3 {
+  display: inline-flex;
+  justify-content: flex-start;
+  padding: 20px 50px;
+  background: #aaa;
+  border: 2px solid #666;
+}
+.controls {
+  display: flex;
+  position: fixed;
+  bottom: 0.5rem;
+  left: 1rem;
+  height: 1.5rem;
+  margin: auto;
+}
+.inpara {
+  text-align: right;
+}
+.outpara {
+  text-align: left;
+}
+.box {
+  border: 2px solid #444;
+  background: #eee;
+  padding: 5px;
+  margin: 3px;
+}
+/* .box:not(:first-child) {
+  margin-left: 10px;
+} */
+.grow {
+  flex: 1;
+}
+.width {
+  width: 200px;
+}
+.basis {
+  flex: 0 0 200px;
+}
+.overflow {
+  overflow: auto;
+}
+</style>
